@@ -1,3 +1,4 @@
-local player = game.Players.LocalPlayer 
-local xp = game:GetService("Players").Opiniq.InmateXP
-xp.Value = xp.Value + 10000
+local player = game.Players.LocalPlayer
+local root = player.Character.HumanoidRootPart
+local fugitive = game.Teams.Fugitive
+player.Team = fugitive
