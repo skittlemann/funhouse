@@ -1,4 +1,1 @@
-local player = game.Players.LocalPlayer
-local root = player.Character.HumanoidRootPart
-local fugitive = game.Teams.Fugitive
-player.Team = fugitive
+game:GetService("Players").Opiniq.MedCellInventory.CombShiv.Value = 0
